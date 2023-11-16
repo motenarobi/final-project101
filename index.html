@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a9f8699c5e.js" crossorigin="anonymous"></script>
+   
+   
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <img src="image/logo.png" width="200px" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+<div class="header-text">
+    <p>Code Artisian</p>
+    <h1>Hi, I'm <span>Sharon Motena</span><br>  A web Developer and Web designer</h1>
+</div>
+</div>
+    </div>
+    <!----About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.jpeg">
+                </div>
+                
+                <div class="about-col-2">
+                    <h1 class="sub-title">About  Me</h1>
+                    <p>Hello, I'm sharon motena, a passionate and skilled
+                         web developer dedicated to crafting user-centric,
+                          high-performance websites. With a background in 
+                          web development and 3 years 
+                          of hands-on experience, I bring a unique blend of
+                           technical expertise and creative problem-solving to every project.
+                           I specialize in turning ideas into robust, interactive web experiences. 
+                   My proficiency spans a wide range of technologies, including: HTML5, CSS3 and JavaScript</p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Code Artisian</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br> Web App Development</li>
+                        <li><span>App Development</span><br>Building android/iOS apps</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022-current</span><br>Coding Training at The Code Academy</li>
+                        <li><span>2022-2021</span><br> Team Building at star works company</li>
+                        <li><span>2021-2019</span><br>Web Development and Desing at Code Camp Academy</li>
+
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>Coding at The Code Academy</li>
+                        <li><span>2019</span><br>Bachelor's Degree in Web Development and Design</li>
+                        <li><span>2018</span><br>Bachelor's Degree In Computing</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+         <div>
+            <i class="fa-solid fa-code"></i>
+<h2>Web Design</h2>
+<p>Web design refers to the process of creating and designing the visual
+     elements, layout, and overall aesthetics of a website. It involves 
+     a combination of graphic design, user experience (UX) design, and
+      sometimes basic coding to produce a website that is visually 
+      appealing, easy to use, and effectively communicates the intended message or functionality. 
+      </p>
+      <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX</h2>
+            <p>In the dynamic realm of digital experiences, User Interface (UI)
+                 and User Experience (UX) design emerge as the architects of
+                  meaningful interactions, seamlessly blending aesthetic 
+                  appeal with functional brilliance. Together, 
+                  they craft a symphony that transforms mere 
+                  interfaces into immersive journeys, placing
+                   the user at the heart of the design process.
+                  </p>
+                  <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>App design services encompass a range of activities 
+                            aimed at creating visually appealing, user-friendly, 
+                            and functional mobile applications. These services are often
+                             provided by specialized design agencies or freelance designers 
+                             who have expertise in both User Interface (UI) and User Experience 
+                             (UX) design.
+                              </p>
+                              <a href="#">Learn more</a>
+                                </div>
+            </div>
+        </div>
+    </div>
+    <!----portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png" >
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png" >
+                    <div class="layer">
+                        <h3>online shopping website</h3>
+                        <p>A Website  that connects you to a great shopping experience around the world.
+                            Download it from play store
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!----contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contanct@sharonmotena4@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0740987654</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                    <a href="image/my-cv.pdf"download class="btn btn2">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your  name" required><br><br>
+                        <input type="email" name="email" placeholder="Your email" required><br><br>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-regular fa-copyright"></i> sharon.<i class="fa-solid fa-code"></i>Code Artisian</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+           
+    
+
+        
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+       function openmenu(){
+        sidemenu.style.right = "0";
+       }
+       function closemenu(){
+        sidemenu.style.right = "-200px";
+       }
+    </script>
+</body>
+</html>
