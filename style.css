@@ -312,9 +312,58 @@ form .btn2{
     font-weight: 300;
     margin-top: 20px;
 }
+.testimonials{
+  padding: 40px 0;
+  text-align: center;
+}
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.border{
+  width: 160px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 26px auto;
+
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.col1{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+
+}
+.testimonial{
+  background: #fff;
+  padding: 30px;
+  color: #080808;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.name{
+  font-size: 20px;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.stars{
+  color: #6ab04c;
+  margin-bottom: 20px ;
+}
 
 /*---css for small screen---*/
-nav .fa{
+nav  .fa{
     display: none;
 }
 
@@ -364,5 +413,10 @@ nav .fa{
         
     .about-col-2{
         font-size: 14px;
+    }
+    .col1{
+      flex: 100%;
+      max-width: 100%;
+
     }
 }
